@@ -1,0 +1,8 @@
+.van-dialog {
+  [class*=van-hairline]::after {
+    border-color: #d5c6ff;
+  }
+  .van-dialog__header--isolated {
+    padding: 45px 0;
+  }
+}

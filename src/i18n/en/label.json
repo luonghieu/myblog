@@ -1,0 +1,9 @@
+{
+  "home": "Home",
+  "time": {
+    "days": "d ",
+    "hours": "h ",
+    "minutes": "m ",
+    "seconds": "s"
+  }
+}

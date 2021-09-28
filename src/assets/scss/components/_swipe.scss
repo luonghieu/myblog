@@ -1,0 +1,10 @@
+.swipe-component {
+  height: 100%;
+  .mint-swipe-indicator {
+    background: #9a9199;
+    opacity: .6;
+    &.is-active {
+      background: #d5c6ff;
+    }
+  }
+}

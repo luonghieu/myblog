@@ -1,0 +1,5 @@
+.van-switch-cell[no-bottom-border] {
+  &::after {
+    border-bottom: 0;
+  }
+}
