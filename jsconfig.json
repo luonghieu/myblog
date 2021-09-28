@@ -1,0 +1,70 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "@Api": ["./src/api"],
+      "@Api/*": ["./src/api/*"],
+
+      "@App": ["./src/app"],
+      "@App/*": ["./src/app/*"],
+
+      "@Assets": ["./src/assets"],
+      "@Assets/*": ["./src/assets/*"],
+
+      "@Components": ["./src/components"],
+      "@Components/*": ["./src/components/*"],
+
+      "@Config": ["./src/config"],
+      "@Config/*": ["./src/config/*"],
+
+      "@I18n": ["./src/i18n"],
+      "@I18n/*": ["./src/i18n/*"],
+
+      "@Libs": ["./src/libs"],
+      "@Libs/*": ["./src/libs/*"],
+
+      "@Layouts": ["./src/layouts"],
+      "@Layouts/*": ["./src/layouts/*"],
+
+      "@Routes": ["./src/routes"],
+      "@Routes/*": ["./src/routes/*"],
+
+      "@Store": ["./src/store"],
+      "@Store/*": ["./src/store/*"],
+
+      "@Utils": ["./src/utils"],
+      "@Utils/*": ["./src/utils/*"],
+
+      "@Validator":[ "./src/validator"],
+      "@Validator/*":[ "./src/validator/*"],
+
+      "@Views": ["./src/views"],
+      "@Views/*": ["./src/views/*"],
+
+      "@Src": ["./src"],
+      "@Src/*": ["./src/*"]
+    }
+  },
+  "filesGlob": ["typings/index.d.ts", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "test",
+    "index.js"
+  ],
+  "compileOnSave": false
+}

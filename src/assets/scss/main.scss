@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@import 'reset';
+// 1. Vendors
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap");
+
+// 2. Configuration and helpers
+@import "abstracts/themes";
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/utility";
+
+// 3. Base stuff
+@import "base/color";
+
+// 4. components
+@import "components/swipe.scss";
+
+// 5. Page-specific styles
+
+// 6. Vant plugin
+@import "vant/button";
+@import "vant/checkbox";
+@import "vant/grid";
+@import "vant/switchCell";
+@import "vant/noticeBar";
+@import "vant/dialog";
+@import "vant/popup";
+@import "vant/stepper";
+@import "vant/field";
+
+// ---- font-family
+$font-web: 'Noto Sans JP',
+  BlinkMacSystemFont,
+  "Noto Sans JP",
+  "Helvetica Neue",
+  "Segoe UI",
+  "Original Yu Gothic",
+  "Yu Gothic",
+  YuGothic,
+  Verdana,
+  "Hiragino Kaku Gothic Pro 3 ", Meiryo, " M+1p ", sans-serif;
+
+body, body *:not(.van-icon) {
+  font-family: $font-web !important;
+}
+
+.check-speaker {
+  button, span {
+    word-break: keep-all;
+  }
+}

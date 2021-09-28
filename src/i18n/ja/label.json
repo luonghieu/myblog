@@ -1,0 +1,9 @@
+{
+  "home": "Home",
+  "time": {
+    "days": "日",
+    "hours": "時",
+    "minutes": "分",
+    "seconds": "秒"
+  }
+}

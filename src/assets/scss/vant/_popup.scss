@@ -1,0 +1,13 @@
+.van-popup[popup-ui] {
+  border-radius: 20px;
+  width: 80%;
+}
+.van-popup[background-tranparent] {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.van-popup[popup-sm] {
+  height: 360px;
+}
+.van-popup[popup-xs] {
+  height: 150px;
+}
