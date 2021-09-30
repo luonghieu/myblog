@@ -29,8 +29,6 @@ axios.interceptors.response.use(
     return response.data
   },
   (error) => {
-    console.log(11111111111111)
-    console.log(error)
     const statusCode = error.response && error.response.status
     switch (statusCode) {
       case 401:
