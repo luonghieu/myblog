@@ -36,7 +36,7 @@ export default {
   },
   methods: {
     handleButtonClick (e) {
-      //console.log('click left button', e);
+      console.log('click left button', e);
     }
   }
 }
